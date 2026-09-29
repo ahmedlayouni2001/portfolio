@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ahmed Layouni · AI & Data Engineer</title>
+  <meta name="description" content="Ahmed Layouni, final-year Computer Science Engineering student at ENSI, specializing in AI & Data Engineering: computer vision, LLM agents, RAG and MLOps." />
+  <meta property="og:title" content="Ahmed Layouni · AI & Data Engineer" />
+  <meta property="og:description" content="Computer vision on the edge, LLM agents & RAG, MLOps. Portfolio, experience and projects." />
+  <meta property="og:image" content="ahmed.jpg" />
+  <meta name="theme-color" content="#0a0e16" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- ───────────── NAV ───────────── -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__logo" aria-label="Ahmed Layouni">AL<span>.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#certifications" data-i18n="nav.certs">Certifications</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="nav__right">
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+        </div>
+        <button class="nav__burger" id="burger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ───────────── HERO ───────────── -->
+    <section class="hero container">
+      <div class="hero__text reveal">
+        <p class="kicker"><span class="dot"></span><span data-i18n="hero.status">Open to PFE internships & graduate roles</span></p>
+        <h1>Ahmed <span class="grad">Layouni</span></h1>
+        <p class="hero__role" data-i18n="hero.role">AI & Data Engineer</p>
+        <p class="hero__lead" data-i18n="hero.lead">Final-year Computer Science Engineering student at ENSI. I ship production-grade AI: real-time computer vision on edge devices, agentic RAG &amp; LLM systems, and the data pipelines and apps around them.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="Ahmed_Layouni_CV_EN.pdf" data-cv target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>
+            <span data-i18n="hero.cv">Download CV</span>
+          </a>
+          <a class="btn btn--ghost" href="#contact" data-i18n="hero.contact">Get in touch</a>
+          <div class="socials">
+            <a href="https://github.com/ahmedlayouni2001" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg></a>
+            <a href="https://www.linkedin.com/in/ahmed-layouni/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg></a>
+            <a href="mailto:ahmed.layouni@ensi-uma.tn" aria-label="Email"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__photo reveal">
+        <div class="photo-frame">
+          <img src="ahmed.jpg" alt="Portrait of Ahmed Layouni" width="720" height="937" />
+        </div>
+        <div class="photo-badge photo-badge--a"><span class="mono">YOLO11 · TensorRT</span></div>
+        <div class="photo-badge photo-badge--b"><span class="mono">LangGraph · RAG</span></div>
+      </div>
+    </section>
+
+    <section class="container stats reveal" aria-label="Highlights">
+      <div class="stat"><strong>3</strong><span data-i18n="stats.internships">internships in AI, ML &amp; full-stack</span></div>
+      <div class="stat"><strong>90%</strong><span data-i18n="stats.accuracy">interaction-counting accuracy in production CV</span></div>
+      <div class="stat"><strong>3×</strong><span data-i18n="stats.realtime">real-time on NVIDIA Jetson Orin NX</span></div>
+      <div class="stat"><strong>7</strong><span data-i18n="stats.projects">featured projects, 4 with live demos</span></div>
+    </section>
+
+    <!-- ───────────── ABOUT ───────────── -->
+    <section class="section container" id="about">
+      <div class="section__head reveal">
+        <p class="eyebrow mono">01</p>
+        <h2 data-i18n="about.title">About me</h2>
+      </div>
+      <div class="about">
+        <div class="about__text reveal">
+          <p data-i18n="about.p1">I'm a final-year engineering student at <strong>ENSI</strong> (National School of Computer Science, Tunisia), specializing in <strong>Artificial Intelligence and Data Engineering</strong>.</p>
+          <p data-i18n="about.p2">What I enjoy most is taking a model out of the notebook and into the real world: a tracker that runs 3× faster than real time on a Jetson in a shop, a RAG agent that checks its own answers before replying, a forecasting model with a proper MLOps pipeline behind it.</p>
+          <p data-i18n="about.p3">I'm currently looking for an <strong>end-of-studies internship (PFE)</strong> in AI or Data Engineering.</p>
+        </div>
+        <div class="edu reveal">
+          <h3 class="edu__title mono" data-i18n="about.edu">Education</h3>
+          <ol class="edu__list">
+            <li>
+              <span class="edu__date mono">2024 – 2027</span>
+              <strong>ENSI, École Nationale des Sciences de l'Informatique</strong>
+              <span data-i18n="about.edu1">Engineering degree in Computer Science (in progress)</span>
+            </li>
+            <li>
+              <span class="edu__date mono">2022 – 2024</span>
+              <strong>IPEIS, Sfax</strong>
+              <span data-i18n="about.edu2">Preparatory classes, Maths &amp; Physics · ranked 324th / 1,750 in the national exam</span>
+            </li>
+            <li>
+              <span class="edu__date mono">2018 – 2022</span>
+              <strong data-i18n="about.edu3t">Sfax Pilot High School</strong>
+              <span data-i18n="about.edu3">Baccalaureate in Mathematics, with highest honours (17.32 / 20)</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── EXPERIENCE ───────────── -->
+    <section class="section container" id="experience">
+      <div class="section__head reveal">
+        <p class="eyebrow mono">02</p>
+        <h2 data-i18n="exp.title">Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="job reveal">
+          <div class="job__meta">
+            <span class="mono job__date" data-i18n="exp.wv.date">Jun – Aug 2026</span>
+            <span class="job__place">Tunis, Tunisia</span>
+          </div>
+          <div class="job__card">
+            <h3><span data-i18n="exp.wv.role">Computer Vision &amp; AI Engineering Intern</span> <span class="at">@ WiseVision</span></h3>
+            <ul>
+              <li data-i18n="exp.wv.b1">Built a real-time CCTV analytics pipeline (YOLO11m-pose + BoT-SORT / OSNet ReID) counting customer entries, staff–customer interactions and per-zone occupancy.</li>
+              <li data-i18n="exp.wv.b2">Reached <strong>87%</strong> accuracy on entry counting and <strong>90%</strong> on interaction counting against hand-labelled ground truth.</li>
+              <li data-i18n="exp.wv.b3">Deployed on-premise on an <strong>NVIDIA Jetson Orin NX</strong> (TensorRT FP16), running at <strong>3× real time</strong>.</li>
+            </ul>
+            <div class="chips"><span>YOLO11-pose</span><span>BoT-SORT</span><span>OSNet ReID</span><span>TensorRT</span><span>ONNX</span><span>Jetson Orin NX</span><span>PySpark</span><span>Databricks</span></div>
+            <a class="job__link" href="#certifications" data-i18n="exp.cert">View certificate →</a>
+          </div>
+        </article>
+
+        <article class="job reveal">
+          <div class="job__meta">
+            <span class="mono job__date" data-i18n="exp.mena.date">Jun – Aug 2026</span>
+            <span class="job__place" data-i18n="exp.mena.place">Remote · Qatar</span>
+          </div>
+          <div class="job__card">
+            <h3><span data-i18n="exp.mena.role">Full-Stack Software Engineering Intern</span> <span class="at">@ MenaML</span></h3>
+            <ul>
+              <li data-i18n="exp.mena.b1">Built a 5-portal conference-management platform in a TypeScript monorepo (~57K lines of code, ~100 pages).</li>
+              <li data-i18n="exp.mena.b2">Designed 40 tRPC routers exposing ~380 type-safe procedures over a 69-table PostgreSQL / Drizzle schema.</li>
+              <li data-i18n="exp.mena.b3">Shipped cross-portal features (multi-step travel &amp; visa approvals, RBAC, dual-backend file storage) backed by a <strong>526-case</strong> unit / integration / E2E test suite.</li>
+            </ul>
+            <div class="chips"><span>TypeScript</span><span>Next.js</span><span>React</span><span>tRPC</span><span>PostgreSQL</span><span>Drizzle ORM</span><span>Docker</span></div>
+          </div>
+        </article>
+
+        <article class="job reveal">
+          <div class="job__meta">
+            <span class="mono job__date" data-i18n="exp.or.date">Jun – Aug 2025</span>
+            <span class="job__place">Tunis, Tunisia</span>
+          </div>
+          <div class="job__card">
+            <h3><span data-i18n="exp.or.role">Machine Learning Engineering Intern</span> <span class="at">@ Orange Tunisia</span></h3>
+            <ul>
+              <li data-i18n="exp.or.b1">Built a one-month weather forecasting model for every Tunisian governorate with Temporal Fusion Transformers, reaching <strong>86%</strong> prediction accuracy.</li>
+              <li data-i18n="exp.or.b2">Designed the full MLOps pipeline: data versioning, experiment tracking and model deployment with MLflow.</li>
+            </ul>
+            <div class="chips"><span>Temporal Fusion Transformer</span><span>PyTorch</span><span>TensorFlow</span><span>MLflow</span><span>Docker</span><span>Azure</span></div>
+            <a class="job__link" href="#certifications" data-i18n="exp.cert">View certificate →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ───────────── PROJECTS ───────────── -->
+    <section class="section container" id="projects">
+      <div class="section__head reveal">
+        <p class="eyebrow mono">03</p>
+        <h2 data-i18n="proj.title">Projects</h2>
+      </div>
+
+      <div class="projects">
+        <article class="project project--wide reveal">
+          <p class="project__tag mono" data-i18n="proj.tag.wv">Internship · WiseVision</p>
+          <h3>CRK Analytics</h3>
+          <p data-i18n="proj.crk">Retail intelligence platform for an 8-store leather-goods chain. Edge AI on NVIDIA Jetson counts customers and staff interactions; a FastAPI backend merges that footfall with point-of-sale data into conversion KPIs shown in a React dashboard. No image ever leaves the store.</p>
+          <div class="chips"><span>YOLO11-pose</span><span>BoT-SORT ReID</span><span>FastAPI</span><span>SQLite</span><span>React</span><span>Recharts</span></div>
+          <div class="project__links">
+            <a href="https://github.com/maram-kouki03/CRK-analytics-dashboard" target="_blank" rel="noopener" data-i18n="proj.code">Code</a>
+            <a href="https://crk-analytics-dashboard-wv5.vercel.app/" target="_blank" rel="noopener" class="live" data-i18n="proj.live">Live demo</a>
+          </div>
+        </article>
+
+        <article class="project project--wide reveal">
+          <p class="project__tag mono" data-i18n="proj.tag.personal">Personal project</p>
+          <h3 data-i18n="proj.rag.t">Corrective RAG agent for technical docs</h3>
+          <p data-i18n="proj.rag">Hybrid BM25 + vector retrieval fused with Reciprocal Rank Fusion, driven by a self-correcting LangGraph agent that grades each retrieved chunk and rewrites the query before answering. 155 docs split into 2,539 structure-aware chunks, evaluated with RAGAS.</p>
+          <div class="chips"><span>LangGraph</span><span>LangChain</span><span>ChromaDB</span><span>BM25</span><span>FastAPI</span><span>RAGAS</span></div>
+          <div class="project__links">
+            <a href="https://github.com/ahmedlayouni2001/RAG-technical-docs-rag" target="_blank" rel="noopener" data-i18n="proj.code">Code</a>
+            <a href="https://rag-technical-wv5.vercel.app/" target="_blank" rel="noopener" class="live" data-i18n="proj.live">Live demo</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <p class="project__tag mono" data-i18n="proj.tag.mena">Internship · MenaML</p>
+          <h3 data-i18n="proj.mena.t">MenaML multi-portal platform</h3>
+          <p data-i18n="proj.mena">Five deployable portals (organizer, sponsor, reviewer, travel agency, participant) sharing UI, types and an API client in one TypeScript monorepo.</p>
+          <div class="chips"><span>React 19</span><span>TypeScript</span><span>Vite</span><span>Tailwind</span><span>Turborepo</span></div>
+          <div class="project__links">
+            <a href="https://github.com/ahmedlayouni2001/MenaML" target="_blank" rel="noopener" data-i18n="proj.code">Code</a>
+            <a href="https://mena-ml-organizer.vercel.app/" target="_blank" rel="noopener" class="live" data-i18n="proj.live">Live demo</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <p class="project__tag mono" data-i18n="proj.tag.team">Team project</p>
+          <h3>OfflinePulse Tunisia</h3>
+          <p data-i18n="proj.op">Real-time audience measurement for offline media: TV (Random Forest on return-path data), radio (Whisper + LLaMA 3.3) and billboards (YOLOv8 + perceptual hashing for fraud detection).</p>
+          <div class="chips"><span>YOLOv8</span><span>Whisper</span><span>LLaMA 3.3</span><span>Random Forest</span><span>Gemini</span></div>
+          <div class="project__links">
+            <a href="https://github.com/ahmedlayouni2001/Audience-Analysis-via-AI" target="_blank" rel="noopener" data-i18n="proj.code">Code</a>
+            <a href="https://drive.google.com/drive/folders/1B33Y6Q6tD0oNRRpqtrEjoaA-2uw-AeLZ" target="_blank" rel="noopener" class="live" data-i18n="proj.video">Demo video</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <p class="project__tag mono" data-i18n="proj.tag.personal">Personal project</p>
+          <h3 data-i18n="proj.stock.t">AI stock analysis assistant</h3>
+          <p data-i18n="proj.stock">Chat assistant built on a LangChain agent with live market-data tools (prices, history, balance sheet, news), rendered as generative UI. FastAPI on Render, React on Vercel.</p>
+          <div class="chips"><span>LangChain</span><span>OpenAI</span><span>Thesys C1</span><span>FastAPI</span><span>React</span></div>
+          <div class="project__links">
+            <a href="https://github.com/ahmedlayouni2001/AI-Stock-Analysis" target="_blank" rel="noopener" data-i18n="proj.code">Code</a>
+            <a href="https://ai-stock-analysis-eight.vercel.app/" target="_blank" rel="noopener" class="live" data-i18n="proj.live">Live demo</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <p class="project__tag mono" data-i18n="proj.tag.mlops">MLOps project</p>
+          <h3 data-i18n="proj.ml.t">Sfax weather forecasting</h3>
+          <p data-i18n="proj.ml">End-to-end MLOps pipeline on 5+ years of hourly climate data, benchmarking statistical (ARIMA, Prophet), ML (XGBoost, Random Forest) and deep learning (LSTM, GRU, CNN, Transformer) models.</p>
+          <div class="chips"><span>MLflow</span><span>PyTorch</span><span>TensorFlow</span><span>XGBoost</span><span>statsmodels</span></div>
+          <div class="project__links">
+            <a href="https://github.com/ahmedlayouni2001/MLops-Project-1" target="_blank" rel="noopener" data-i18n="proj.code">Code</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <p class="project__tag mono" data-i18n="proj.tag.hack">Hackathon · Seneca</p>
+          <h3>FitConnect</h3>
+          <p data-i18n="proj.fit">AI fitness community: two LightGBM models predict each user's fitness level and goal, then generate personalized nutrition, sleep and training recommendations.</p>
+          <div class="chips"><span>LightGBM</span><span>Gemini</span><span>React</span><span>Node.js</span></div>
+          <div class="project__links">
+            <a href="https://github.com/youssefhk11/seneca_hackathon" target="_blank" rel="noopener" data-i18n="proj.code">Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ───────────── SKILLS ───────────── -->
+    <section class="section container" id="skills">
+      <div class="section__head reveal">
+        <p class="eyebrow mono">04</p>
+        <h2 data-i18n="skills.title">Skills</h2>
+      </div>
+      <div class="skills">
+        <div class="skill reveal">
+          <h3 data-i18n="skills.cv">AI, ML &amp; computer vision</h3>
+          <div class="chips"><span>PyTorch</span><span>TensorFlow</span><span>scikit-learn</span><span>YOLOv8 / YOLO11</span><span>BoT-SORT</span><span>OSNet ReID</span><span>LightGBM</span><span>XGBoost</span><span>Temporal Fusion Transformer</span></div>
+        </div>
+        <div class="skill reveal">
+          <h3 data-i18n="skills.llm">LLMs, agents &amp; RAG</h3>
+          <div class="chips"><span>LangChain</span><span>LangGraph</span><span>OpenAI API</span><span>Gemini</span><span>Mistral OCR</span><span>ChromaDB</span><span>BM25 / hybrid retrieval</span><span>RAGAS</span></div>
+        </div>
+        <div class="skill reveal">
+          <h3 data-i18n="skills.data">Data &amp; MLOps</h3>
+          <div class="chips"><span>Apache Spark</span><span>PySpark</span><span>Databricks</span><span>MLflow</span><span>pandas</span><span>SQL</span><span>PostgreSQL</span></div>
+        </div>
+        <div class="skill reveal">
+          <h3 data-i18n="skills.edge">Edge deployment</h3>
+          <div class="chips"><span>TensorRT</span><span>ONNX</span><span>NVIDIA Jetson Orin NX</span><span>FP16 optimization</span></div>
+        </div>
+        <div class="skill reveal">
+          <h3 data-i18n="skills.web">Web &amp; backend</h3>
+          <div class="chips"><span>FastAPI</span><span>Next.js</span><span>React</span><span>Node.js</span><span>tRPC</span><span>Drizzle ORM</span><span>Flutter</span></div>
+        </div>
+        <div class="skill reveal">
+          <h3 data-i18n="skills.lang">Languages &amp; tools</h3>
+          <div class="chips"><span>Python</span><span>TypeScript</span><span>JavaScript</span><span>Java</span><span>C / C++</span><span>Docker</span><span>Git</span><span>Azure</span><span>AWS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── CERTIFICATIONS ───────────── -->
+    <section class="section container" id="certifications">
+      <div class="section__head reveal">
+        <p class="eyebrow mono">05</p>
+        <h2 data-i18n="certs.title">Certifications</h2>
+        <p class="section__sub" data-i18n="certs.sub">Internship certificates issued by the host companies. Click to view.</p>
+      </div>
+      <div class="certs">
+        <button class="cert reveal" type="button" data-full="cert-wisevision.jpg" data-alt="WiseVision internship certificate">
+          <img src="cert-wisevision-thumb.jpg" alt="" />
+          <div class="cert__info">
+            <strong>WiseVision AI Technologies</strong>
+            <span data-i18n="certs.wv">Internship certificate · Computer vision · Jun – Aug 2026</span>
+          </div>
+        </button>
+        <button class="cert reveal" type="button" data-full="cert-orange.jpg" data-alt="Orange Tunisia internship certificate">
+          <img src="cert-orange-thumb.jpg" alt="" />
+          <div class="cert__info">
+            <strong>Orange Tunisia</strong>
+            <span data-i18n="certs.or">Internship certificate · Networks &amp; Services · Jun – Aug 2025</span>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <!-- ───────────── CONTACT ───────────── -->
+    <section class="section container" id="contact">
+      <div class="contact reveal">
+        <p class="eyebrow mono">06</p>
+        <h2 data-i18n="contact.title">Let's build something together</h2>
+        <p data-i18n="contact.text">Looking for an AI or Data Engineering intern? I'd love to hear about your team and the problems you're working on.</p>
+        <div class="contact__actions">
+          <a class="btn btn--primary" href="mailto:ahmed.layouni@ensi-uma.tn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            ahmed.layouni@ensi-uma.tn
+          </a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/ahmed-layouni/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn--ghost" href="https://github.com/ahmedlayouni2001" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn--ghost" href="Ahmed_Layouni_CV_EN.pdf" data-cv target="_blank" rel="noopener" data-i18n="hero.cv">Download CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© <span id="year">2026</span> Ahmed Layouni</span>
+    <a href="#top" data-i18n="footer.top">Back to top ↑</a>
+  </footer>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox">
+    <button class="lightbox__close" type="button" aria-label="Close">×</button>
+    <img id="lightboxImg" alt="" />
+  </dialog>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
